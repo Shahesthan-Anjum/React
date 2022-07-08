@@ -1,0 +1,9 @@
+1.What is React?
+React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
+It is maintained by Meta and a community of individual developers and companies
+React allows developers to create large web applications that can change data, without reloading the page.
+The main purpose of React is to be fast, scalable, and simple. It works only on user interfaces in the application.
+2.What React means?
+React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
+It lets you compose complex UIs from small and isolated pieces of code called “components”.
+React has a few different kinds of components, but we'll start with React.Component subclasses: class ShoppingList extends React.
