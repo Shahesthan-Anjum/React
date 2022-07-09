@@ -7,3 +7,43 @@ The main purpose of React is to be fast, scalable, and simple. It works only on 
 React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
 It lets you compose complex UIs from small and isolated pieces of code called “components”.
 React has a few different kinds of components, but we'll start with React.Component subclasses: class ShoppingList extends React.
+
+3.Features of React.js: Here are some features that make React.js different from other programming languages:
+React components have reusable codes that make it simple to use and learn.
+React library has JSX (JavaScript XML), which is HTML like syntax, which is processed into JavaScript calls.
+React components are reusable which helps while working on larger scale projects and has their own logic and controls.
+One-way data binding provides better control throughout the application.
+The virtual DOM uses the ReactDOM library which ideally/virtually, represents UI and keeps in the memory and syncs with the real DOM.
+DOM has a smoother and faster performance due to virtual components.
+
+4.Node.js	React.js
+Node.js used as a back-end framework	///React is used for developing user interfaces.
+It supports the Model–view–controller (MVC) framework.////	Does not support the Model–view–controller (MVC) framework.
+It runs on chrome’s v8 engine and uses an event-driven, non-blocking I/O model, which is written in C++.//////	It uses Node.js to compile and optimize the JavaScript code and easy to create UI Test cases.
+Node.js handles requests and authentication from the browser, make database calls, etc.//////	It makes API calls and processes in-browser data.
+Here the Real-time data streaming is handled easily. /////////	In React complex architecture makes it hard to keep track of the traditional approach.
+Framework for JavaScript execution having the largest ecosystem of open source libraries.	/////Facebook-backed Open Source JS library.
+The language used is only JavaScript.///////	The language used is JSX and JavaScript.
+There is no DOM (Document Object Model) concept that is Used.//////	Here the Virtual DOM (Document Object Model) is Used that makes it faster.
+It is easy to write microservices in Node.Js//////	Microservices are difficult to be written in React.Js
+It is highly scalable.	///////Scalability is still a challenge.
+It has a simple architecture.	//////////It has a complex architecture.
+
+Lifecycle of Components
+Each component in React has a lifecycle which you can monitor and manipulate during its three main phases.
+The three phases are: Mounting, Updating, and Unmounting.
+###Mounting
+Mounting means putting elements into the DOM.
+React has four built-in methods that gets called, in this order, when mounting a component:
+constructor()
+getDerivedStateFromProps()
+render()
+componentDidMount()
+
+@The render() method is required and will always be called, the others are optional and will be called if you define them.
+
+@constructor
+The constructor() method is called before anything else, when the component is initiated, and it is the natural place to set up the initial state and other initial values.
+
+The constructor() method is called with the props, as arguments, and you should always start by calling the super(props) before anything else, 
+this will initiate the parent's constructor method and allows the component to inherit methods from its parent (React.Component).
